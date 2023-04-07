@@ -1,0 +1,32 @@
+AND  --> circuito en serie
+true = 1
+false = 0
+Entrada              Salida   
+   A          B        X
+   0          0        0
+   0          1        0
+   1          0        0
+   1          1        1
+
+
+-------------------------------
+OR --> circuito en paralelo
+true = 1
+false = 0
+Entrada              Salida  
+A          B            X
+0          0            0
+0          1            1
+1          0            1
+1          1            1
+
+------------------------------------
+XOR   Exclusive OR
+
+Entrada              Salida  
+A          B            X
+0          0            0
+0          1            1
+1          0            1
+1          1            0
+
